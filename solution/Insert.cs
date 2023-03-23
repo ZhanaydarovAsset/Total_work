@@ -4,7 +4,9 @@
 ///</summary>
 public static class InsertArray
 {
-    
+    ///<summary>
+    ///метод вставки в массив
+    ///</summary>
     public static void Insert (ref string[] array, string value, int index = 0)
     {
         string[] newArray = new string[array.Length +1];
