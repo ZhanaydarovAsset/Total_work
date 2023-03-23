@@ -1,7 +1,7 @@
 ﻿//
-using static InsertArray;
 
-string[] array = {"window", "bmw", "gb", "turan"};
+
+string[] array = {"window", "bmw", "gb", "turan", "kll"};
 string [] massif = {};
 for (int i = 0; i < array.Length; i++)
 {
@@ -9,7 +9,7 @@ for (int i = 0; i < array.Length; i++)
     if(array[i].Length<=3)
     {
          temp = array[i];
-         Insert(ref massif, temp);
+         InsertArray.Insert(ref massif, temp);
     }
 }
 
